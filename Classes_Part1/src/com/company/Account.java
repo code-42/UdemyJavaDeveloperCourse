@@ -1,8 +1,8 @@
 package com.company;
 
-import java.math.BigDecimal;
-
 public class Account {
+
+    // Section 7 Lecture 37
 
     // private fields
     private String accountNumber;
@@ -10,6 +10,21 @@ public class Account {
     private String customerName;
     private String email;
     private String phoneNumber;
+
+    // Default constructor this(must be the first line
+    public Account() {
+        this("123CK", 0.00, "default name", "default email", "default phone");
+        System.out.println("Empty constructor");
+    }
+
+    public Account(String accountNumber, double balance, String customerName, String email, String phoneNumber) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        System.out.println("Account constructor call completed");
+    }
 
     // Getters and setters
     public String getAccountNumber() {
