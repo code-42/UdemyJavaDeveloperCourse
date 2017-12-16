@@ -14,9 +14,18 @@ public class Main {
         // Object methods
         myAccount.Deposit(300.00);
         myAccount.Withdraw(3100.00);
+        System.out.println(myAccount.getBalance());
+        System.out.println(myAccount.getCustomerName());
 
-        Account defaultAccount = new Account();
-//        System.out.println(defaultAccount.getCustomerName(), defaultAccount.getPhoneNumber());
+        Account defaultAccount = new Account("Me Name", "me@email",  "555-1212");
+//        try{
+//            System.out.println(defaultAccount.getCustomerName(), defaultAccount.getPhoneNumber());
+//        }
+//        catch (Exception e)
+//        {
+//            System.out.printf("err: %s%n", e);
+//        }
+
 
         Account myNewAccount = new Account("My Name", "My Email", "My Phone");
 //        System.out.println(myNewAccount.getCustomerName(), myNewAccount.getPhoneNumber());

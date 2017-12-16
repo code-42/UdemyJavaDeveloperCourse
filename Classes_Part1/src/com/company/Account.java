@@ -19,7 +19,7 @@ public class Account {
 
     // Constructor with two default fields and calls Major Constructor for the other fields
     public Account(String customerName, String email, String phoneNumber) {
-        this("99999", 0.00,  customerName, email, phoneNumber);
+        this("99999", 10.00,  customerName, email, phoneNumber);
     }
 
     // Major Constructor - all fields are set by main()
