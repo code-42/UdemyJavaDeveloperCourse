@@ -1,5 +1,7 @@
 package com.company;
 
+
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,6 +17,10 @@ public class Main {
         myAccount.Withdraw(3100.00);
 
         Account defaultAccount = new Account();
+//        System.out.println(defaultAccount.getCustomerName(), defaultAccount.getPhoneNumber());
 
+
+        Account myNewAccount = new Account("My Name", "My Email", "My Phone");
+//        System.out.println(myNewAccount.getCustomerName(), myNewAccount.getPhoneNumber());
     }
 }

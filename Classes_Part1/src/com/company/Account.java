@@ -11,12 +11,18 @@ public class Account {
     private String email;
     private String phoneNumber;
 
-    // Default constructor this(must be the first line
+    // Default constructor this(must be the first line)
     public Account() {
         this("123CK", 0.00, "default name", "default email", "default phone");
         System.out.println("Empty constructor");
     }
 
+    // Constructor with two default fields and calls Major Constructor for the other fields
+    public Account(String customerName, String email, String phoneNumber) {
+        this("99999", 0.00,  customerName, email, phoneNumber);
+    }
+
+    // Major Constructor - all fields are set by main()
     public Account(String accountNumber, double balance, String customerName, String email, String phoneNumber) {
         this.accountNumber = accountNumber;
         this.balance = balance;
@@ -39,7 +45,7 @@ public class Account {
         return balance;
     }
 
-    public void setBalance(double balance) {
+    private void setBalance(double balance) {
         this.balance = balance;
     }
 
