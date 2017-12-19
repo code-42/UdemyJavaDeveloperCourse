@@ -12,21 +12,21 @@ public class Vehicle {
         this.wheels = wheels;
     }
 
-    public void Steering(){
+    public void steering(){
         System.out.println("I'm steering");
     }
 
-    public void Shifting(){
+    public void shifting(){
         System.out.println("I'm shifting");
     }
 
-    public int Moving(int speed){
+    public int moving(int speed){
         System.out.println("I'm moving.  Wheee!");
         return speed;
     }
 
-    public int Accelerating(int acceleration){
-        System.out.println("I'm accelerating");
+    public int accelerating(int acceleration){
+        System.out.println("I'm accelerating.  It's so exhilarating!");
         return acceleration;
     }
 

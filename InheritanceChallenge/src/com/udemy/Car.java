@@ -14,8 +14,4 @@ public class Car extends Vehicle {
         this.passengers = passengers;
     }
 
-    
-
-
-
 }
