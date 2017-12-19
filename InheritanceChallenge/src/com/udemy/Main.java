@@ -4,10 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Vehicle truck = new Vehicle();
+        Vehicle truck = new Vehicle("car", 2017, 4);
 
-        Car myCar = new Car();
-        myCar.Moving(22);
+        // public Car(String make, String style, int passengers) {
+        Car myCar = new Car("Ford", "Sedan", 5);
+        int moving = myCar.Moving(22);
         System.out.println(myCar.Moving(5));
 
         Camaro myCamaro = new Camaro("Shelby");
