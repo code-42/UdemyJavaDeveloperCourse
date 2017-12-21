@@ -38,6 +38,7 @@ public class Main {
 
         theHotel.getTheFrontDesk().checkIn();
 
+        theHotel.getTheFrontDesk().getRoom();
 
         theHotel.getThePhones().callRoomService();
         System.out.println(theHotel.getThePhones().callRoomService());
