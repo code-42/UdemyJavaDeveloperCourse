@@ -13,7 +13,7 @@ public class Main {
         // The fields and mentods are protected by the use of Constructor and Accessors
 
         // Lecture 48 Polymorphism - implementation of methods based on the object calling it
-        // DoPolymorphism();
+        DoPolymorphism();
     }
 
 
