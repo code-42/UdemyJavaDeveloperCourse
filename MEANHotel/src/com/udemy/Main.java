@@ -24,13 +24,22 @@ public class Main {
         Name name = new Name("Motel 6");
         Location location = new Location("20 Jefferson Blvd", "Warwick", "RI");
         Phones phones = new Phones("401-123-4567", "401-123-1234", "401-123-5678");
-//        Lobby lobby = new Lobby(1,2);
-        CoffeeMachine coffee = new CoffeeMachine("Lobby");
+        Lobby lobby = new Lobby();
+        CoffeeMachine coffee = new CoffeeMachine();
+        FrontDesk frontDesk = new FrontDesk();
 
-        Hotel theHotel = new Hotel(name, location, phones, coffee);
+        Hotel theHotel = new Hotel(name, location, phones, coffee, frontDesk);
+
+        System.out.println();
+        theHotel.getTheFrontDesk().ringBell();
 
         System.out.println();
         theHotel.getTheName().sayWelcome(theHotel.getTheName().getName());
+
+
+        theHotel.getThePhones().callRoomService();
+        System.out.println(theHotel.getThePhones().callRoomService());
+
         theHotel.getTheCoffeeMachine().makeCoffee(1,2);
 
         System.out.println(theHotel.getTheName().getName());
@@ -38,19 +47,25 @@ public class Main {
                 theHotel.getTheLocation().getCity() + ", " +
                 theHotel.getTheLocation().getState());
         System.out.println();
-        System.out.println(theHotel.getThePhones().getMainPhone());
-        System.out.println(theHotel.getThePhones().callMainPhone());
+//        System.out.println(theHotel.getThePhones().getMainPhone());
+//        System.out.println(theHotel.getThePhones().callMainPhone());
 //        System.out.println();
-//        System.out.println(theHotel.getThePhones().getReservations());
-//        System.out.println(theHotel.getThePhones().callReservations());
-//        System.out.println();
-//        System.out.println(theHotel.getThePhones().getRoomService());
-//        System.out.println(theHotel.getThePhones().callRoomService());
-//        System.out.println();
+        System.out.println(theHotel.getThePhones().getReservations());
+        System.out.println(theHotel.getThePhones().callReservations());
+        System.out.println();
+        System.out.println(theHotel.getThePhones().getRoomService());
+        System.out.println(theHotel.getThePhones().callRoomService());
+        System.out.println();
+
+//        System.out.println(theHotel.getTheLobby().getTheFrontDesk().ringBell());
+//        System.out.println(theHotel.getTheLobby().getTheFrontDesk().checkIn());
+
     }
 
 
     public static void DoPolymorphism() {
+
+        System.out.println("\nThis is Section 8 Lecture 48 - Polymorphism\n");
         // Lecture 48 Polymorphism - implementation of methods based on the object calling it
         Hotels hotels = randomHotels();
         System.out.println("Hotel: " +

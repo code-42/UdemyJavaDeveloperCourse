@@ -13,15 +13,15 @@ public class Phones {
     }
 
     public String callMainPhone(){
-        return ("Calling main phone");
+        return ("This is the main phone. Sorry no one is available to help you.");
     }
 
     public String callReservations(){
-        return ("Calling for reservations");
+        return ("Reservations, may I help you?");
     }
 
     public String callRoomService(){
-        return ("Calling room service");
+        return ("Calling Room Service.... Hola?");
     }
 
     public String getMainPhone() {
