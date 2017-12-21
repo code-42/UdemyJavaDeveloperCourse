@@ -1,41 +1,28 @@
 package com.udemy;
 
-/*
- * criteria
- * name
- * total number of rooms
- * pool
- * rent a room()
- * total rooms rented
- * */
 
 public class Hotel {
 
-    private String name;
-    private int totalNumberOfRooms;
-    private boolean hasPool;
-    private int totalRoomsRented;
-    private int roomsAvailable;
+    private Name theName;
+    private Location theLocation;
+    private Phones thePhones;
 
-    public Hotel(String name, int totalNumberOfRooms, boolean hasPool) {
-        this.name = name;
-        this.totalNumberOfRooms = totalNumberOfRooms;
-        this.hasPool = hasPool;
+    public Hotel(Name theName, Location theLocation, Phones thePhones) {
+        this.theName = theName;
+        this.theLocation = theLocation;
+        this.thePhones = thePhones;
     }
 
-    public void RentRoom(int howMany){
-        if(this.totalRoomsRented >= this.totalNumberOfRooms){
-            System.out.println("Sorry, No Vacancy");
-        }
+    public Name getTheName() {
+        return theName;
+    }
 
-        if(this.totalRoomsRented < this.totalNumberOfRooms){
-//            System.out.println(howMany);
+    public Location getTheLocation() {
+        return theLocation;
+    }
 
-            roomsAvailable = ((this.totalNumberOfRooms - this.totalRoomsRented) - howMany);
-            System.out.println(roomsAvailable);
-
-        }
-
-
+    public Phones getThePhones() {
+        return thePhones;
     }
 }
+
