@@ -36,6 +36,8 @@ public class Main {
         System.out.println();
         theHotel.getTheName().sayWelcome(theHotel.getTheName().getName());
 
+        theHotel.getTheFrontDesk().checkIn();
+
 
         theHotel.getThePhones().callRoomService();
         System.out.println(theHotel.getThePhones().callRoomService());
