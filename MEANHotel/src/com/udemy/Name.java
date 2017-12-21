@@ -8,6 +8,10 @@ public class Name {
         this.name = name;
     }
 
+    public void sayWelcome(String name){
+        System.out.println("Welcome to the " + name + "\n");
+    }
+
     public String getName() {
         return name;
     }
