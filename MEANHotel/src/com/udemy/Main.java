@@ -27,7 +27,8 @@ public class Main {
         System.out.println(aHotel.getThePhones().callRoomService());
 
         // Lecture 46 & 47 Encapsulation - protecting data and methods from improper access
-
+        // Encapsulation is evident in the preceeding section
+        // The fields and mentods are protected by the use of Constructor and Accessors
 
         // Lecture 48 Polymorphism - implementation of methods based on the object calling it
 
