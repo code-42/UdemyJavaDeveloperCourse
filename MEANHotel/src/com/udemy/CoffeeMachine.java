@@ -9,7 +9,8 @@ public class CoffeeMachine {
 
     public void makeCoffee(int milk, int sugar){
         int amount = milk + sugar;
-        System.out.println("coffee is $5.  extra $" + amount + " for " +
+        System.out.println("\nCoffeeMachine.makeCoffee() says: \n" +
+                            "Coffee is $2 + extra $" + amount + " for " +
                             milk + " milk and " + sugar + " sugar.\n");
     }
 

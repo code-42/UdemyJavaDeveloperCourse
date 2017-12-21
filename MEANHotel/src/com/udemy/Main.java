@@ -13,14 +13,16 @@ public class Main {
         // The fields and mentods are protected by the use of Constructor and Accessors
 
         // Lecture 48 Polymorphism - implementation of methods based on the object calling it
-        DoPolymorphism();
+         DoPolymorphism();
     }
 
 
     public static void DoComposition () {
 
         // Lecture 44 & 45 Composition - reusing code instead of inheritance to achieve polymorphism
+        System.out.println("\nThis is Section 8 Lecture 44 & 45 - Composition\n");
 
+        // Instantiate Objects
         Name name = new Name("Motel 6");
         Location location = new Location("20 Jefferson Blvd", "Warwick", "RI");
         Phones phones = new Phones("401-123-4567", "401-123-1234", "401-123-5678", name);
@@ -28,9 +30,10 @@ public class Main {
         CoffeeMachine coffee = new CoffeeMachine();
         FrontDesk frontDesk = new FrontDesk();
 
+        // Composition of Hotel object using other objects instead of inheritance
         Hotel theHotel = new Hotel(name, location, phones, coffee, frontDesk);
 
-        System.out.println();
+        // Call methods on the objects
         System.out.println(theHotel.getTheName().getName());
         System.out.println(theHotel.getTheLocation().getStreet() + "\n" +
                 theHotel.getTheLocation().getCity() + ", " +
@@ -43,6 +46,7 @@ public class Main {
         theHotel.getTheFrontDesk().ringBell();
         System.out.println();
 
+        // These methods have print statements in the methods
         theHotel.getTheName().sayWelcome(theHotel.getTheName().getName());
 
         theHotel.getTheFrontDesk().checkIn();
@@ -52,15 +56,17 @@ public class Main {
         theHotel.getThePhones().callRoomService();
         System.out.println(theHotel.getThePhones().callRoomService());
 
-        theHotel.getTheCoffeeMachine().makeCoffee(1,2);
-
+        theHotel.getTheCoffeeMachine().makeCoffee(2,2);
     }
 
 
     public static void DoPolymorphism() {
 
+        System.out.println("***********************************************");
         System.out.println("\nThis is Section 8 Lecture 48 - Polymorphism\n");
         // Lecture 48 Polymorphism - implementation of methods based on the object calling it
+
+        // Instantiate a random hotel from Hotels list
         Hotels hotels = randomHotels();
         System.out.println("Hotel: " +
                 hotels.getName() + "\n" +
