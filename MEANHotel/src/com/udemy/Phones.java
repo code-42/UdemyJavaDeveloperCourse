@@ -5,11 +5,13 @@ public class Phones {
     private String mainPhone;
     private String reservations;
     private String roomService;
+    private Name name;
 
-    public Phones(String mainPhone, String reservations, String roomService) {
+    public Phones(String mainPhone, String reservations, String roomService, Name name) {
         this.mainPhone = mainPhone;
         this.reservations = reservations;
         this.roomService = roomService;
+        this.name = name;
     }
 
     public String callMainPhone(){
@@ -21,8 +23,9 @@ public class Phones {
     }
 
     public String callRoomService(){
-        return ("Calling Room Service.... Hola?" +
-        "\ncoffee machine in the lobby");
+        return ("Calling Room Service.... " +
+                "\nThis is " + name.getName() +
+                "\ncoffee machine is in the lobby");
     }
 
     public String getMainPhone() {

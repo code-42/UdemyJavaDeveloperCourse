@@ -8,8 +8,9 @@ public class CoffeeMachine {
     }
 
     public void makeCoffee(int milk, int sugar){
-        System.out.println("Here's your coffee " +
-                            "with " + milk + " milk and " + sugar + " sugar.\n");
+        int amount = milk + sugar;
+        System.out.println("coffee is $5.  extra $" + amount + " for " +
+                            milk + " milk and " + sugar + " sugar.\n");
     }
 
     public String getLocation() {

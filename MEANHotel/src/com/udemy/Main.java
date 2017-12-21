@@ -23,7 +23,7 @@ public class Main {
 
         Name name = new Name("Motel 6");
         Location location = new Location("20 Jefferson Blvd", "Warwick", "RI");
-        Phones phones = new Phones("401-123-4567", "401-123-1234", "401-123-5678");
+        Phones phones = new Phones("401-123-4567", "401-123-1234", "401-123-5678", name);
         Lobby lobby = new Lobby();
         CoffeeMachine coffee = new CoffeeMachine();
         FrontDesk frontDesk = new FrontDesk();
