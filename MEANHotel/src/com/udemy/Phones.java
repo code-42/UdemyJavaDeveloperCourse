@@ -21,7 +21,8 @@ public class Phones {
     }
 
     public String callRoomService(){
-        return ("Calling Room Service.... Hola?");
+        return ("Calling Room Service.... Hola?" +
+        "\ncoffee machine in the lobby");
     }
 
     public String getMainPhone() {

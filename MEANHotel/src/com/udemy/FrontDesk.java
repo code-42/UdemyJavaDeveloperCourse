@@ -11,13 +11,13 @@ public class FrontDesk {
         System.out.println("Ding!");
     }
 
-    public String checkIn(){
+    public void checkIn(){
         System.out.println("I am checking in.");
-        return "I am checking in.";
     }
 
     public void getRoom(){
-        System.out.println("Your room is ready");
+        int randomNumber = (int) (Math.random() * 6) + 1;
+        System.out.println("Your room is # " + randomNumber);
     }
 
     public String getBell() {

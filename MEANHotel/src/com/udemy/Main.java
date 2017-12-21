@@ -31,9 +31,18 @@ public class Main {
         Hotel theHotel = new Hotel(name, location, phones, coffee, frontDesk);
 
         System.out.println();
-        theHotel.getTheFrontDesk().ringBell();
-
+        System.out.println(theHotel.getTheName().getName());
+        System.out.println(theHotel.getTheLocation().getStreet() + "\n" +
+                theHotel.getTheLocation().getCity() + ", " +
+                theHotel.getTheLocation().getState());
         System.out.println();
+        System.out.println(theHotel.getThePhones().getReservations());
+        System.out.println(theHotel.getThePhones().callReservations());
+        System.out.println();
+
+        theHotel.getTheFrontDesk().ringBell();
+        System.out.println();
+
         theHotel.getTheName().sayWelcome(theHotel.getTheName().getName());
 
         theHotel.getTheFrontDesk().checkIn();
@@ -44,24 +53,6 @@ public class Main {
         System.out.println(theHotel.getThePhones().callRoomService());
 
         theHotel.getTheCoffeeMachine().makeCoffee(1,2);
-
-        System.out.println(theHotel.getTheName().getName());
-        System.out.println(theHotel.getTheLocation().getStreet() + "\n" +
-                theHotel.getTheLocation().getCity() + ", " +
-                theHotel.getTheLocation().getState());
-        System.out.println();
-//        System.out.println(theHotel.getThePhones().getMainPhone());
-//        System.out.println(theHotel.getThePhones().callMainPhone());
-//        System.out.println();
-        System.out.println(theHotel.getThePhones().getReservations());
-        System.out.println(theHotel.getThePhones().callReservations());
-        System.out.println();
-        System.out.println(theHotel.getThePhones().getRoomService());
-        System.out.println(theHotel.getThePhones().callRoomService());
-        System.out.println();
-
-//        System.out.println(theHotel.getTheLobby().getTheFrontDesk().ringBell());
-//        System.out.println(theHotel.getTheLobby().getTheFrontDesk().checkIn());
 
     }
 
