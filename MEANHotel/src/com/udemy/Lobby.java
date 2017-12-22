@@ -6,8 +6,6 @@ public class Lobby {
     private CoffeeMachine theCoffeeMachine;
 
     public Lobby() {
-//        this.theFrontDesk = theFrontDesk;
-//        this.theCoffeeMachine = theCoffeeMachine;
     }
 
     public FrontDesk getTheFrontDesk() {

@@ -14,7 +14,6 @@ public class Hotel {
         this.theName = theName;
         this.theLocation = theLocation;
         this.thePhones = thePhones;
-//        this.theLobby = theLobby;
         this.theCoffeeMachine = theCoffeeMachine;
         this.theFrontDesk = theFrontDesk;
     }

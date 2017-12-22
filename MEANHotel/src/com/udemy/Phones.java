@@ -19,7 +19,9 @@ public class Phones {
     }
 
     public String callReservations(){
-        return ("Reservations, may I help you?");
+
+        return ("\nPhones.callReservations() says: \n" +
+                "Reservations, may I help you?");
     }
 
     public String callRoomService(){

@@ -38,11 +38,11 @@ public class Main {
         System.out.println(theHotel.getTheLocation().getStreet() + "\n" +
                 theHotel.getTheLocation().getCity() + ", " +
                 theHotel.getTheLocation().getState());
-        System.out.println();
-        System.out.println(theHotel.getThePhones().getReservations());
+
         System.out.println(theHotel.getThePhones().callReservations());
         System.out.println();
 
+        // Call instance methods
         theHotel.getTheFrontDesk().ringBell();
         System.out.println();
 

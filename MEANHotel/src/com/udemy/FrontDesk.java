@@ -8,7 +8,7 @@ public class FrontDesk {
     }
 
     public void ringBell(){
-        System.out.println("Ding!");
+        System.out.println("FrontDesk.ringBell() says: Ding!");
     }
 
     public void checkIn(){

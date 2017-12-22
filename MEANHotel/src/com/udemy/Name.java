@@ -9,7 +9,8 @@ public class Name {
     }
 
     public void sayWelcome(String name){
-        System.out.println("Welcome to the " + name + "\n");
+        System.out.println("Name.sayWelcome() says: \n" +
+                "Welcome to the " + name + "\n");
     }
 
     public String getName() {

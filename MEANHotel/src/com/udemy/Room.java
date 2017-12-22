@@ -7,11 +7,10 @@ public class Room {
     public Room() {
     }
 
-    public static String getRoomNumber() {
+    public static int getRoomNumber() {
 
-        int randomNumber = (int) (Math.random() * 9) + 1;
-            System.out.println("Room: " +
-                    Room.getRoomNumber() + "\n");  // this is Polymorphism
-        return Room.getRoomNumber();
+        // Generate random room number
+        int randomNumber = (int) (Math.random() * 6) + 1;
+        return randomNumber;
     }
 }
