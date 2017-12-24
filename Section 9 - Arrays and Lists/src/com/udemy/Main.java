@@ -25,6 +25,8 @@ public class Main {
 
         int[] myArray = getIntegers();
 
+        printArray(myArray);
+
     }
 
     public static int[] getIntegers(){
@@ -43,12 +45,21 @@ public class Main {
             numArr[i] = scanner.nextInt();
         }
 
-
-        for (int i = 0; i < numArr.length; i++){
-            System.out.print(numArr[i] + " ");
-        }
+//        for (int i = 0; i < numArr.length; i++){
+//            System.out.print(numArr[i] + " ");
+//        }
 
         return numArr;
+    }
+
+    public static void printArray(int[] arr){
+
+        int len = arr.length;
+
+        System.out.println();
+        for ( int i = 0; i < len; ++i){
+            System.out.print(arr[i] + " ");
+        }
     }
 
 }
