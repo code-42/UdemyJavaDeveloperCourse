@@ -27,9 +27,14 @@ public class Main {
 
         printArray(myArray);
 
+        printArray(sortIntegers(myArray));
+
+
     }
 
     public static int[] getIntegers(){
+
+        // getIntegers returns an array of entered integers from keyboard
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number from 1 to 10:\r");
@@ -45,21 +50,42 @@ public class Main {
             numArr[i] = scanner.nextInt();
         }
 
-//        for (int i = 0; i < numArr.length; i++){
-//            System.out.print(numArr[i] + " ");
-//        }
-
         return numArr;
     }
 
     public static void printArray(int[] arr){
 
+        // printArray prints out the contents of the array
+
         int len = arr.length;
 
-        System.out.println();
         for ( int i = 0; i < len; ++i){
             System.out.print(arr[i] + " ");
         }
+    }
+
+    public static int[] sortIntegers(int[] arr){
+
+        // sortIntegers should sort the array in descending order
+        // and return a new array containing the sorted numbers
+
+        // bubble sort
+
+        int len = arr.length;
+
+        for (int i = 0; i < len; i++){
+            for (int j = 0; j < len - i - 1; j++){
+                if (arr[j] < arr[j+1]){
+                    int tmp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tmp;
+                }
+            }
+        }
+
+        System.out.println("\nNow I am going to print them sorted in descending order (from high to low)...");
+
+        return arr;
     }
 
 }
