@@ -19,8 +19,6 @@ public class Main {
         // you will have to figure out how to copy the array elements from the passed array into a new
         // array and sort them and return the new sorted array.
 
-        // with a little inspiration from sorting algos --> https://www.geeksforgeeks.org/sorting-algorithms/
-
         System.out.println("This is Section 9 - Arrays");
 
         int[] myArray = getIntegers();
@@ -28,6 +26,8 @@ public class Main {
         printArray(myArray);
 
         printArray(sortIntegers(myArray));
+
+        printArray(sortInitegers2(myArray));
 
 
     }
@@ -62,6 +62,7 @@ public class Main {
         for ( int i = 0; i < len; ++i){
             System.out.print(arr[i] + " ");
         }
+        System.out.println();
     }
 
     public static int[] sortIntegers(int[] arr){
@@ -70,6 +71,7 @@ public class Main {
         // and return a new array containing the sorted numbers
 
         // bubble sort
+        // with a little inspiration from sorting algos --> https://www.geeksforgeeks.org/sorting-algorithms/
 
         int len = arr.length;
 
@@ -88,4 +90,25 @@ public class Main {
         return arr;
     }
 
+    public static int[] sortInitegers2(int[] array){
+        // tutorial sorting solution
+        int[] sortedArray = new int[array.length];
+        for (int i = 0; i < array.length; i++){
+            sortedArray[i] = array[i];
+        }
+        boolean flag = true;
+        int temp;
+        while(flag){
+            flag = false;
+            for (int i = 0; i < sortedArray.length-1; i++){
+                if(sortedArray[i] < sortedArray[i + 1]){
+                    temp = sortedArray[i];
+                    sortedArray[i] = sortedArray[i + 1];
+                    sortedArray[i + 1] = temp;
+                    flag = true;
+                }
+            }
+        }
+        return sortedArray;
+    }
 }
