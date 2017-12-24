@@ -23,6 +23,32 @@ public class Main {
 
         System.out.println("This is Section 9 - Arrays");
 
+        int[] myArray = getIntegers();
+
+    }
+
+    public static int[] getIntegers(){
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number from 1 to 10:\r");
+
+        int size = scanner.nextInt();
+
+        System.out.println("Enter " + size + " numbers:\r");
+        int[] numArr = new int[size];
+
+        int len = numArr.length;
+
+        for (int i = 0; i < len; i++){
+            numArr[i] = scanner.nextInt();
+        }
+
+
+        for (int i = 0; i < numArr.length; i++){
+            System.out.print(numArr[i] + " ");
+        }
+
+        return numArr;
     }
 
 }
