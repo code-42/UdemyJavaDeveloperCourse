@@ -4,33 +4,16 @@ import java.util.ArrayList;
 
 public class Contacts {
 
-    private String name;
-    private String phoneNumber;
+//    private String name;
+//    private String phoneNumber;
 
     private ArrayList<String> contacts = new ArrayList<String>();
 
     public Contacts() {
     }
 
-    public Contacts(String name, String phoneNumber) {
-        this.name = name;
-        this.phoneNumber = phoneNumber;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public Contacts(ArrayList<String> contacts) {
+        this.contacts = contacts;
     }
 
     public void addNewContact(String contact){
@@ -43,8 +26,20 @@ public class Contacts {
         }
     }
 
-    private void modifyContct(int position, String contact){
+    private void updateExistingContact(int position, String contact){
 
+    }
+
+    private int findItem(String searchItem){
+        return contacts.indexOf(searchItem);
+    }
+
+    public boolean onFile(String searchItem){
+        int position = findItem(searchItem);
+        if (position >= 0){
+            return true;
+        }
+        return false;
     }
 
 }

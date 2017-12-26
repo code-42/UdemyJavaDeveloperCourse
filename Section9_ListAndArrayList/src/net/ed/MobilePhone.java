@@ -6,15 +6,25 @@ import java.util.Scanner;
 public class MobilePhone {
 
     private static Scanner scanner = new Scanner(System.in);
-    private static Contacts contacts = new Contacts();
+    private static Contacts contactsList = new Contacts();
 
     public static void printContactsList(){
-        contacts.printContactsList();
+        contactsList.printContactsList();
     }
 
     public static void addNewContact(){
         System.out.println("Please enter name and phone number");
-        contacts.addNewContact(scanner.nextLine());
+        contactsList.addNewContact(scanner.nextLine());
+    }
+
+    public static void searchForContact(){
+        System.out.println("Search for contact: ");
+        String searchItem = scanner.nextLine();
+        if(contactsList.onFile(searchItem)){
+            System.out.println("Found " + searchItem);
+        } else {
+            System.out.println(searchItem + " not found in contacts list.");
+        }
     }
 
     public static void copyArrayList(){

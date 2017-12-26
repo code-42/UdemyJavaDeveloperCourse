@@ -50,9 +50,9 @@ public class Main {
 //                case 4:
 //                    removeContact();
 //                    break;
-//                case 5:
-//                    searchForContact();
-//                    break;
+                case 5:
+                    mobilePhone.searchForContact();
+                    break;
 //                case 6:
 //                    copyArrayList(); // see video 56 @ 12:25
                 case 7:
