@@ -40,9 +40,9 @@ public class Main {
 //                case 1:
 //                    mobilePhone.printContactsList();
 //                    break;
-//                case 2:
-//                    addNewContact();
-//                    break;
+                case 2:
+                    addNewContact();
+                    break;
 //                case 3:
 //                    updateExistingContact();
 //                    break;
@@ -71,5 +71,10 @@ public class Main {
         System.out.println("\t 5 - To search for a contact in the list.");
         System.out.println("\t 6 - To copy the contact list.");
         System.out.println("\t 7 - To quit the application.");
+    }
+
+    public static void addNewContact(){
+        System.out.println("Pleae enter name and phone number");
+        mobilePhone.addNewContact(scanner.nextLine());
     }
 }
