@@ -37,9 +37,9 @@ public class Main {
                 case 0:
                     printInstructions();
                     break;
-//                case 1:
-//                    mobilePhone.printContactsList();
-//                    break;
+                case 1:
+                    mobilePhone.printContactsList();
+                    break;
                 case 2:
                     addNewContact();
                     break;
