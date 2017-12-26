@@ -28,6 +28,7 @@ public class Main {
         int choice = 0;
 
         printInstructions();
+
         while (!quit) {
             System.out.println("Enter your choice: ");
             choice = scanner.nextInt();
@@ -41,7 +42,7 @@ public class Main {
                     mobilePhone.printContactsList();
                     break;
                 case 2:
-                    addNewContact();
+                    mobilePhone.addNewContact();
                     break;
 //                case 3:
 //                    updateExistingContact();
@@ -53,7 +54,7 @@ public class Main {
 //                    searchForContact();
 //                    break;
 //                case 6:
-//                    processArrayList(); // see video 56 @ 12:25
+//                    copyArrayList(); // see video 56 @ 12:25
                 case 7:
                     quit = true;
                     break;
@@ -61,20 +62,18 @@ public class Main {
         }
     }
 
-    public static void printInstructions() {
-        System.out.println("\nPress ");
-        System.out.println("\t 0 - To print choice options.");
-        System.out.println("\t 1 - To print the list of contacts.");
-        System.out.println("\t 2 - To add a contact to the list.");
-        System.out.println("\t 3 - To update a contact in the list.");
-        System.out.println("\t 4 - To remove a contact from the list.");
-        System.out.println("\t 5 - To search for a contact in the list.");
-        System.out.println("\t 6 - To copy the contact list.");
-        System.out.println("\t 7 - To quit the application.");
-    }
+        public static void printInstructions(){
+            System.out.println("\nPress ");
+            System.out.println("\t 0 - To print choice options.");
+            System.out.println("\t 1 - To print the list of contacts.");
+            System.out.println("\t 2 - To add a contact to the list.");
+            System.out.println("\t 3 - To update a contact in the list.");
+            System.out.println("\t 4 - To remove a contact from the list.");
+            System.out.println("\t 5 - To search for a contact in the list.");
+            System.out.println("\t 6 - To copy the contact list.");
+            System.out.println("\t 7 - To quit the application.");
+        }
 
-    public static void addNewContact(){
-        System.out.println("Pleae enter name and phone number");
-        mobilePhone.addNewContact(scanner.nextLine());
-    }
+
+
 }

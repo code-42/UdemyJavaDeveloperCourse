@@ -1,19 +1,23 @@
 package net.ed;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class MobilePhone {
 
-    private ArrayList<String> contacts = new ArrayList<String>();
+    private static Scanner scanner = new Scanner(System.in);
+    private static Contacts contacts = new Contacts();
 
-    public void addNewContact(String contact){
-        contacts.add(contact);
+    public static void printContactsList(){
+        contacts.printContactsList();
     }
 
-    public void printContactsList(){
-        for(int i = 0; i < contacts.size(); i++){
-            System.out.println((i+1) + ". " + contacts.get(i));
-        }
+    public static void addNewContact(){
+        System.out.println("Please enter name and phone number");
+        contacts.addNewContact(scanner.nextLine());
+    }
 
+    public static void copyArrayList(){
+        ArrayList<String> contactsCopy = new ArrayList<String>();
     }
 }
