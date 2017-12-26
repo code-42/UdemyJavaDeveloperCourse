@@ -13,11 +13,52 @@ package net.ed;
 // e.g. no ints, no .get(i) etc
 // MobilePhone should do everything with Contact objects only.
 
+import java.util.Scanner;
+import java.util.ArrayList;
+
 public class Main {
+
+    private static Scanner scanner = new Scanner(System.in);
+    private static MobilePhone mobilePhone = new MobilePhone();
 
     public static void main(String[] args) {
 
-        
+        boolean quit = false;
+        int choice = 0;
 
-    }
+        printInstructions();
+        while (!quit) {
+            System.out.println("Enter your choice: ");
+            choice = scanner.nextInt();
+            scanner.nextLine();
+
+            switch (choice) {
+                case 0:
+                    printInstructions();
+                    break;
+                case 1:
+                    mobilePhone.printContactsList();
+                    break;
+                case 2:
+                    addNewContact();
+                    break;
+                case 3:
+                    updateExistingContact();
+                    break;
+                case 4:
+                    removeContact();
+                    break;
+                case 5:
+                    searchForContact();
+                    break;
+                case 6:
+                    processArrayList();
+                case 7:
+                    quit = true;
+                    break;
+            }
+
+
+
+        }
 }
