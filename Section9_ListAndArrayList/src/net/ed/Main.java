@@ -44,9 +44,9 @@ public class Main {
                 case 2:
                     mobilePhone.addNewContact();
                     break;
-//                case 3:
-//                    updateExistingContact();
-//                    break;
+                case 3:
+                    mobilePhone.updateExistingContact();
+                    break;
 //                case 4:
 //                    removeContact();
 //                    break;

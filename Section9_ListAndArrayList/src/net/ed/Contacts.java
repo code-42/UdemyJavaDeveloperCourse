@@ -7,7 +7,7 @@ public class Contacts {
 //    private String name;
 //    private String phoneNumber;
 
-    private ArrayList<String> contacts = new ArrayList<String>();
+    private static ArrayList<String> contacts = new ArrayList<String>();
 
     public Contacts() {
     }
@@ -26,11 +26,12 @@ public class Contacts {
         }
     }
 
-    private void updateExistingContact(int position, String contact){
-
+    public void updateExistingContact(int position, String contact){
+        contacts.set(position, contact);
+        System.out.println("Contacts list #" + position + ". " + contact + " has been updated.");
     }
 
-    private int findItem(String searchItem){
+    public static int findItem(String searchItem){
         return contacts.indexOf(searchItem);
     }
 

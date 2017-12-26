@@ -17,6 +17,15 @@ public class MobilePhone {
         contactsList.addNewContact(scanner.nextLine());
     }
 
+    public static void updateExistingContact(){
+        System.out.print("Update Existing Contact \n Enter Current contact: ");
+        String contact = scanner.nextLine();
+        int contactNo = searchForContact(contact);
+        System.out.print("Enter new contact info: ");
+        String newInfo = scanner.nextLine();
+        contactsList.updateExistingContact(contactNo, newInfo);
+    }
+
     public static void searchForContact(){
         System.out.println("Search for contact: ");
         String searchItem = scanner.nextLine();
@@ -27,7 +36,14 @@ public class MobilePhone {
         }
     }
 
-    public static void copyArrayList(){
-        ArrayList<String> contactsCopy = new ArrayList<String>();
+    // method overloading - same name different signature
+    private static int searchForContact(String contact){
+//        System.out.println("Search for contact: ");
+//        String searchItem = scanner.nextLine();
+        return Contacts.findItem(contact);
     }
+
+//    public static void copyArrayList(){
+//        ArrayList<String> contactsCopy = new ArrayList<String>();
+//    }
 }
