@@ -1,5 +1,6 @@
 package net.ed;
 
+// Lecture 57
 // Create a program that implements a simple mobile phone with the following capabilities.
 // Able to store, modify, remove and query contact names.
 // You will want to create a separate class for Contacts (name and phone number).
@@ -36,29 +37,39 @@ public class Main {
                 case 0:
                     printInstructions();
                     break;
-                case 1:
-                    mobilePhone.printContactsList();
-                    break;
-                case 2:
-                    addNewContact();
-                    break;
-                case 3:
-                    updateExistingContact();
-                    break;
-                case 4:
-                    removeContact();
-                    break;
-                case 5:
-                    searchForContact();
-                    break;
-                case 6:
-                    processArrayList();
+//                case 1:
+//                    mobilePhone.printContactsList();
+//                    break;
+//                case 2:
+//                    addNewContact();
+//                    break;
+//                case 3:
+//                    updateExistingContact();
+//                    break;
+//                case 4:
+//                    removeContact();
+//                    break;
+//                case 5:
+//                    searchForContact();
+//                    break;
+//                case 6:
+//                    processArrayList(); // see video 56 @ 12:25
                 case 7:
                     quit = true;
                     break;
             }
-
-
-
         }
+    }
+
+    public static void printInstructions() {
+        System.out.println("\nPress ");
+        System.out.println("\t 0 - To print choice options.");
+        System.out.println("\t 1 - To print the list of contacts.");
+        System.out.println("\t 2 - To add a contact to the list.");
+        System.out.println("\t 3 - To update a contact in the list.");
+        System.out.println("\t 4 - To remove a contact from the list.");
+        System.out.println("\t 5 - To search for a contact in the list.");
+        System.out.println("\t 6 - To copy the contact list.");
+        System.out.println("\t 7 - To quit the application.");
+    }
 }
