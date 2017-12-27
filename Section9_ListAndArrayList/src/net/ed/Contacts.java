@@ -1,24 +1,51 @@
 package net.ed;
 
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 
 public class Contacts {
 
-//    private String name;
-//    private String phoneNumber;
-
+    // store MobilePhone contact list in ArrayList
     private static ArrayList<String> contacts = new ArrayList<String>();
 
+    // empty constructor
     public Contacts() {
     }
 
+    // default constructor
     public Contacts(ArrayList<String> contacts) {
         this.contacts = contacts;
     }
 
-    public void addNewContact(String contact){
-        contacts.add(contact);
+    // getter method
+    public static ArrayList<String> getContacts() {
+        return contacts;
     }
+
+    public void addNewContact(String contact){
+        if (contacts.indexOf(contact) == -1){
+            contacts.add(contact);
+        } else {
+            System.out.println("Contact already exists");
+        }
+
+    }
+
+    public void removeContact(int position) {
+        String contact = contacts.get(position);
+        try{
+            if (contact != "") {
+                if (contact != null) {
+                    contacts.remove(position);
+                    System.out.println("Contact deleted.");
+                }
+            }
+        } catch (ArrayIndexOutOfBoundsException e){
+            System.out.println(e);
+            System.out.println("Contact not found.");
+        }
+    }
+
 
     public void printContactsList(){
         for(int i = 0; i < contacts.size(); i++){

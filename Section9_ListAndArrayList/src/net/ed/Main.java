@@ -14,6 +14,7 @@ package net.ed;
 // e.g. no ints, no .get(i) etc
 // MobilePhone should do everything with Contact objects only.
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -31,7 +32,14 @@ public class Main {
 
         while (!quit) {
             System.out.println("Enter your choice: ");
-            choice = scanner.nextInt();
+            try{
+                choice = scanner.nextInt();
+            }
+            catch (InputMismatchException e){
+                System.out.println("Incorrect input. Please try again.");
+                printInstructions();
+            }
+
             scanner.nextLine();
 
             switch (choice) {
@@ -47,14 +55,14 @@ public class Main {
                 case 3:
                     mobilePhone.updateExistingContact();
                     break;
-//                case 4:
-//                    removeContact();
-//                    break;
+                case 4:
+                    mobilePhone.removeContact();
+                    break;
                 case 5:
                     mobilePhone.searchForContact();
                     break;
-//                case 6:
-//                    copyArrayList(); // see video 56 @ 12:25
+                case 6:
+                    mobilePhone.copyArrayList(); // see video 56 @ 12:25
                 case 7:
                     quit = true;
                     break;
@@ -62,18 +70,15 @@ public class Main {
         }
     }
 
-        public static void printInstructions(){
-            System.out.println("\nPress ");
-            System.out.println("\t 0 - To print choice options.");
-            System.out.println("\t 1 - To print the list of contacts.");
-            System.out.println("\t 2 - To add a contact to the list.");
-            System.out.println("\t 3 - To update a contact in the list.");
-            System.out.println("\t 4 - To remove a contact from the list.");
-            System.out.println("\t 5 - To search for a contact in the list.");
-            System.out.println("\t 6 - To copy the contact list.");
-            System.out.println("\t 7 - To quit the application.");
-        }
-
-
-
+    public static void printInstructions(){
+        System.out.println("\nPress ");
+        System.out.println("\t 0 - To print choice options.");
+        System.out.println("\t 1 - To print the list of contacts.");
+        System.out.println("\t 2 - To add a contact to the list.");
+        System.out.println("\t 3 - To update a contact in the list.");
+        System.out.println("\t 4 - To remove a contact from the list.");
+        System.out.println("\t 5 - To search for a contact in the list.");
+        System.out.println("\t 6 - To copy the contact list.");
+        System.out.println("\t 7 - To quit the application.");
+    }
 }
