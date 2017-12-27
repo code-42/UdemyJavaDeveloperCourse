@@ -10,8 +10,8 @@ public class UtilitiesTest {
 //        char[] output = utils.everyNthChar(new char[] {'h', 'e', 'l', 'l', 'o'},2);
 //        assertArrayEquals(new char[] {'e','l'},output);
         char[] charArr = {'h', 'e', 'l', 'l', 'o'};
-        char[] result = utils.everyNthChar(charArr,2);
-        assertArrayEquals(new char[] {'e','l'}, result);
+        char[] result = utils.everyNthChar(charArr,8);
+        assertArrayEquals(new char[] {'e', 'l'}, result);
     }
 
     @org.junit.Test

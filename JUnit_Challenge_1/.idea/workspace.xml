@@ -21,7 +21,6 @@
       <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/src/UtilitiesTest.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/src/net/ed/Main.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/net/ed/Main.java" afterPath="$PROJECT_DIR$/src/net/ed/Main.java" />
       <change beforePath="$PROJECT_DIR$/src/net/ed/UtilitiesTest.java" afterPath="$PROJECT_DIR$/src/net/ed/UtilitiesTest.java" />
       <change beforePath="$PROJECT_DIR$/../Section9_ListAndArrayList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Section9_ListAndArrayList/.idea/workspace.xml" />
     </list>
@@ -61,13 +60,13 @@
       <file leaf-file-name="UtilitiesTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/ed/UtilitiesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="171">
+              <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding>
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -372,14 +371,14 @@
     <history-entry file="UtilitiesTest_everyNthChar - 2017.12.27 at 18h 01m 37s.xml">
       <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_removePairs - 2017.12.27 at 17h 33m 50s.xml">
-      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_everyNthChar - 2017.12.27 at 18h 08m 41s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_removePairs - 2017.12.27 at 17h 34m 18s.xml">
-      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_everyNthChar - 2017.12.27 at 18h 10m 25s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_removePairs - 2017.12.27 at 17h 35m 43s.xml">
-      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_everyNthChar - 2017.12.27 at 18h 11m 17s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UtilitiesTest_removePairs - 2017.12.27 at 17h 35m 53s.xml">
       <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
@@ -444,17 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/ed/Utilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="e#1656#1657#0" expanded="true" />
-            <element signature="e#1698#1699#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ed/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -470,15 +458,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ed/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="e#1656#1657#0" expanded="true" />
+            <element signature="e#1698#1699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ed/UtilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="171">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding>
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
           </folding>
         </state>
       </provider>
