@@ -13,7 +13,8 @@ public class UtilitiesTest {
     public void removePairs() {
         Utilities util = new Utilities();
 //        assertEquals("ABCDEF", util.removePairs("AABCDDEFF"));
-        assertEquals("ABCABDEF", util.removePairs("ABCCABDEEF"));
+//        assertEquals("ABCABDEF", util.removePairs("ABCCABDEEF"));
+        assertNull("String is null", util.removePairs(null));
     }
 
     @org.junit.Test
