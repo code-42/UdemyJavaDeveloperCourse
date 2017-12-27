@@ -20,6 +20,8 @@ public class BankAccountTest {
 
     @org.junit.Test
     public void getBalance() {
-        fail("This test not yet implemented");
+        BankAccount account = new BankAccount("Me", "LaStName", 1000);
+        account.deposit(200, true);
+        assertEquals(1200, account.getBalance(), 0);
     }
 }

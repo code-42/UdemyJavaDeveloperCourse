@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d20a027-2e99-4bb0-b1ea-44fc9620fb9b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/Copyright_Edward_Dupre.xml" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../Classes_Part1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Classes_Part1/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../Classes_Part1/src/com/company/VipCustomer.java" afterPath="$PROJECT_DIR$/../Classes_Part1/src/com/company/VipCustomer.java" />
       <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/src/com/udemy/Camaro.java" afterPath="$PROJECT_DIR$/../InheritanceChallenge/src/com/udemy/Camaro.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/net/ed/BankAccountTest.java" afterPath="$PROJECT_DIR$/src/net/ed/BankAccountTest.java" />
       <change beforePath="$PROJECT_DIR$/../Section9_ListAndArrayList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Section9_ListAndArrayList/.idea/workspace.xml" />
     </list>
@@ -51,13 +49,12 @@
       <file leaf-file-name="BankAccountTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/ed/BankAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="293">
+              <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#444#445#0" expanded="true" />
                 <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -279,9 +276,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankAccountTest - 2017.12.27 at 10h 57m 47s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BankAccountTest - 2017.12.27 at 10h 58m 26s.xml">
       <configuration name="BankAccountTest" configurationId="JUnit" />
     </history-entry>
@@ -307,6 +301,9 @@
       <configuration name="BankAccountTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BankAccountTest - 2017.12.27 at 11h 06m 24s.xml">
+      <configuration name="BankAccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankAccountTest - 2017.12.27 at 11h 10m 19s.xml">
       <configuration name="BankAccountTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -377,13 +374,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ed/BankAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="293">
+          <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
             <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
           </folding>
         </state>
       </provider>
