@@ -19,9 +19,17 @@ public class BankAccountTest {
     }
 
     @org.junit.Test
-    public void getBalance() {
+    public void getBalance_after_deposit() {
         BankAccount account = new BankAccount("Me", "LaStName", 1000);
         account.deposit(200, true);
         assertEquals(1200, account.getBalance(), 0);
+
+    }
+
+    @org.junit.Test
+    public void getBalance_after_withdraw() {
+        BankAccount account = new BankAccount("Me", "LaStName", 1000);
+        account.withdraw(200, true);
+        assertEquals(800, account.getBalance(), 0);
     }
 }

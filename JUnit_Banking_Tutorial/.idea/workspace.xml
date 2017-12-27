@@ -49,8 +49,8 @@
       <file leaf-file-name="BankAccountTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/ed/BankAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+            <state relative-caret-position="435">
+              <caret line="30" column="68" lean-forward="false" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#444#445#0" expanded="true" />
@@ -276,9 +276,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankAccountTest - 2017.12.27 at 10h 58m 26s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BankAccountTest - 2017.12.27 at 10h 58m 36s.xml">
       <configuration name="BankAccountTest" configurationId="JUnit" />
     </history-entry>
@@ -304,6 +301,9 @@
       <configuration name="BankAccountTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BankAccountTest - 2017.12.27 at 11h 10m 19s.xml">
+      <configuration name="BankAccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankAccountTest - 2017.12.27 at 11h 14m 22s.xml">
       <configuration name="BankAccountTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -374,8 +374,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ed/BankAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        <state relative-caret-position="435">
+          <caret line="30" column="68" lean-forward="false" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
