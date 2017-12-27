@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d20a027-2e99-4bb0-b1ea-44fc9620fb9b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/ed/BankAccount.java" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../Classes_Part1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Classes_Part1/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../Classes_Part1/src/com/company/VipCustomer.java" afterPath="$PROJECT_DIR$/../Classes_Part1/src/com/company/VipCustomer.java" />
       <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/src/com/udemy/Camaro.java" afterPath="$PROJECT_DIR$/../InheritanceChallenge/src/com/udemy/Camaro.java" />
+      <change beforePath="$PROJECT_DIR$/src/net/ed/BankAccount.java" afterPath="$PROJECT_DIR$/src/net/ed/BankAccount.java" />
       <change beforePath="$PROJECT_DIR$/../Section9_ListAndArrayList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Section9_ListAndArrayList/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,9 +33,12 @@
       <file leaf-file-name="BankAccount.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/ed/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="498">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -235,9 +238,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ed/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="498">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
