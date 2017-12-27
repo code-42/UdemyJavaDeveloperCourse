@@ -22,7 +22,7 @@ public class Utilities {
     }
 
     // Removes pairs of the same character that are next
-    // to each other, by removing on e occurrencd of the character.
+    // to each other, by removing one occurrence of the character.
     // "ABBCDEEF" -> "ABCDEF"
     // "ABCBDEEF" -> "ABCBDEF" (the two B's aren't next to each other, so they
     // aren't removed.
@@ -37,13 +37,13 @@ public class Utilities {
         char[] string = source.toCharArray();
 
         for(int i=0; i < string.length - 1; i++) {
-            System.out.println(string[i]);
+//            System.out.println(string[i]);
             if(string[i] != string[i + 1]) {
                 sb.append(string[i]);
             }
         }
 
-        System.out.println(string[string.length -1]);
+//        System.out.println(string[string.length -1]);
         // Add the final character, which is always safe
         sb.append(string[string.length - 1]);
 
