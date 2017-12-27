@@ -28,20 +28,20 @@ public class BankAccountTest {
 
     @org.junit.Test
     public void withdraw_branch() throws Exception {
-        account.withdraw(600.00, true);
+        double balance = account.withdraw(600.00, true);
+        assertEquals(400.00, balance, 0);
     }
 
     @org.junit.Test(expected = IllegalArgumentException.class)
     public void withdraw_notBranch() throws Exception {
-        double balance = account.withdraw(600.00, false);
-        assertEquals(400.00, balance, 0);
+        account.withdraw(600.00, false);
+        fail("Should throw IllegalArgumentException");
     }
 
     @org.junit.Test
     public void getBalance_after_deposit() throws Exception {
         account.deposit(200, true);
         assertEquals(1200, account.getBalance(), 0);
-
     }
 
     @org.junit.Test
