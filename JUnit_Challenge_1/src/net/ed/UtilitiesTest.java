@@ -25,7 +25,10 @@ public class UtilitiesTest {
 
     @org.junit.Test
     public void converter() {
-        fail("Test not implemented yet");
+        // return (a/b) + (a * 30) -2;
+        Utilities util = new Utilities();
+        int sum = util.converter(10,5);
+        assertEquals(300,sum);
     }
 
     @org.junit.Test
