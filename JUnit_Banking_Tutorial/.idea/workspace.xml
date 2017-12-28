@@ -2,15 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d20a027-2e99-4bb0-b1ea-44fc9620fb9b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JUnitChallenge1/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/ed/BankAccountTestParameterized.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../JUnit_Challenge_1/JUnit_Challenge_10.1_ss.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../JUnit_Challenge_1/JUnit_Challenge_10.2_ss.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../JUnit_Challenge_1/src/net/ed/UtilitiesTestParameterized.java" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../Classes_Part1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Classes_Part1/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../Classes_Part1/src/com/company/VipCustomer.java" afterPath="$PROJECT_DIR$/../Classes_Part1/src/com/company/VipCustomer.java" />
       <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/src/com/udemy/Camaro.java" afterPath="$PROJECT_DIR$/../InheritanceChallenge/src/com/udemy/Camaro.java" />
+      <change beforePath="$PROJECT_DIR$/../JUnitChallenge1/.idea/codeStyles/codeStyleConfig.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/net/ed/BankAccountTest.java" afterPath="$PROJECT_DIR$/src/net/ed/BankAccountTest.java" />
+      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/.idea/codeStyles/codeStyleConfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/.idea/description.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/.idea/project-template.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/JUnit_Challenge1.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/JUnit_Challenge1_ss.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/src/Utilities.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/src/UtilitiesTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/src/net/ed/Main.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge_1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JUnit_Challenge_1/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../Section9_ListAndArrayList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Section9_ListAndArrayList/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,8 +39,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/ed/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding>
                 <element signature="e#81#82#0" expanded="true" />
                 <element signature="e#145#146#0" expanded="true" />
@@ -51,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankAccountTestParameterized.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BankAccountTestParameterized.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/ed/BankAccountTestParameterized.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="-78">
               <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -63,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankAccountTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BankAccountTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/ed/BankAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#256#257#0" expanded="true" />
@@ -126,9 +139,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="-1284" />
+    <option name="y" value="55" />
     <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -380,9 +394,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankAccountTest - 2017.12.27 at 13h 12m 40s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BankAccountTest - 2017.12.27 at 13h 14m 16s.xml">
       <configuration name="BankAccountTest" configurationId="JUnit" />
     </history-entry>
@@ -410,9 +421,12 @@
     <history-entry file="BankAccountTestParameterized_deposit - 2017.12.27 at 14h 00m 49s.xml">
       <configuration name="BankAccountTestParameterized.deposit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BankAccountTestParameterized_deposit - 2017.12.27 at 15h 33m 08s.xml">
+      <configuration name="BankAccountTestParameterized.deposit" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="-1284" y="55" width="1280" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -494,17 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/ed/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JUnit_Banking_Tutorial.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -525,22 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/ed/BankAccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-            <element signature="e#1833#1834#0" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
-            <element signature="e#1950#1951#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JUnit_Banking_Tutorial.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="57">
@@ -556,10 +543,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ed/BankAccountTestParameterized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="-78">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ed/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ed/BankAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1950#1951#0" expanded="true" />
           </folding>
         </state>
       </provider>

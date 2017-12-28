@@ -5,8 +5,8 @@ public class Camaro extends Car {
     private String subModel;
     private int gears;
 
-    public Camaro(String type, int year, int wheels, String make, String style, int passengers) {
-        super(type, year, wheels, make, style, passengers);
+    public Camaro(String type, int year, int wheels, int passengers, String subModel, int gears) {
+        super(type, year, wheels, "Camaro", "Sport", passengers);
         this.subModel = subModel;
         this.gears = gears;
     }

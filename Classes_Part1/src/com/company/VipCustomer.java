@@ -1,5 +1,6 @@
 package com.company;
 
+// Section 7 Lecture 38
 public class VipCustomer {
 
     private String name;
