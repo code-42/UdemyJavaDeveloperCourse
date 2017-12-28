@@ -20,13 +20,6 @@
       <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/src/Utilities.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/src/UtilitiesTest.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/src/net/ed/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JUnit_Challenge1_ss.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JUnit_Challenge2_ss.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JUnit_Challenge3_ss.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JUnit_Challenge4_ss.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JUnit_Challenge5_ss.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JUnit_Challenge6_ss.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JUnit_Challenge7_ss.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/net/ed/UtilitiesTest.java" afterPath="$PROJECT_DIR$/src/net/ed/UtilitiesTest.java" />
       <change beforePath="$PROJECT_DIR$/../Section9_ListAndArrayList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Section9_ListAndArrayList/.idea/workspace.xml" />
     </list>
@@ -66,9 +59,12 @@
       <file leaf-file-name="UtilitiesTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/ed/UtilitiesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="280">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding>
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +72,7 @@
       <file leaf-file-name="UtilitiesTest.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UtilitiesTest.log">
           <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="-710">
+            <state relative-caret-position="-119">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             </state>
           </provider>
@@ -217,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitiesTest.converter_arithmeticException">
+  <component name="RunManager" selected="JUnit.UtilitiesTest">
     <configuration name="UtilitiesTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <log_file path="$PROJECT_DIR$" checked="true" skipped="true" show_all="false" alias="UtilitiesTest.log" />
       <output_file path="$PROJECT_DIR$/UtilitiesTest.log" is_save="true" />
@@ -420,6 +416,15 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="UtilitiesTest - 2017.12.27 at 19h 35m 36s.xml">
+      <configuration name="UtilitiesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest - 2017.12.27 at 19h 35m 56s.xml">
+      <configuration name="UtilitiesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest - 2017.12.27 at 19h 38m 21s.xml">
+      <configuration name="UtilitiesTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="UtilitiesTest_converter - 2017.12.27 at 19h 18m 12s.xml">
       <configuration name="UtilitiesTest.converter" configurationId="JUnit" />
     </history-entry>
@@ -438,15 +443,6 @@
     <history-entry file="UtilitiesTest_converter_arithmeticException - 2017.12.27 at 19h 29m 23s.xml">
       <configuration name="UtilitiesTest.converter_arithmeticException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_nullIfOddLength - 2017.12.27 at 19h 12m 02s.xml">
-      <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_nullIfOddLength - 2017.12.27 at 19h 12m 10s.xml">
-      <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_nullIfOddLength - 2017.12.27 at 19h 12m 20s.xml">
-      <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UtilitiesTest_nullIfOddLength - 2017.12.27 at 19h 18m 07s.xml">
       <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
     </history-entry>
@@ -463,7 +459,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40469208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40469208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -517,7 +513,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UtilitiesTest.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-710">
+        <state relative-caret-position="-119">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -535,9 +531,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ed/UtilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="280">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
