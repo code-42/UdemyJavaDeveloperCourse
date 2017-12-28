@@ -30,6 +30,8 @@ public class UtilitiesTest {
 
     @org.junit.Test
     public void nullIfOddLength() {
-        fail("Test not implemented yet");
+        Utilities util = new Utilities();
+        assertNull(util.nullIfOddLength("odd"));
+        assertNotNull(util.nullIfOddLength("even"));
     }
 }
