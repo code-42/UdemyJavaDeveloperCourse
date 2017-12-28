@@ -31,6 +31,13 @@ public class UtilitiesTest {
         assertEquals(300,sum);
     }
 
+    // Challenge #8 ArithmeticException (divide by 0)
+    @org.junit.Test(expected = ArithmeticException.class)
+    public void converter_arithmeticException() throws Exception {
+        Utilities util = new Utilities();
+        util.converter(10,0);
+    }
+
     @org.junit.Test
     public void nullIfOddLength() {
         Utilities util = new Utilities();
