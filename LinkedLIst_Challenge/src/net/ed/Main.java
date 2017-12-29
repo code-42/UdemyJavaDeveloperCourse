@@ -28,6 +28,7 @@ public class Main {
         Album album = new Album("Purple Rain", "Prince and the Revolution");
 
         album.addSong("Lets Go Crazy", 4.39);
+        album.addSong("Take Me with U", 3.54);
     }
 
 
