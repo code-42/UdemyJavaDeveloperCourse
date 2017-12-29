@@ -17,9 +17,15 @@ package net.ed;
 // (hint: listiterator.remove()
 
 
+import java.util.ArrayList;
+
 public class Main {
 
+    private static ArrayList<Album> albums = new ArrayList<Album>();
+
     public static void main(String[] args) {
-	// write your code here
+
     }
+
+
 }

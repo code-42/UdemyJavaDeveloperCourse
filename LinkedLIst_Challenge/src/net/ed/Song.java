@@ -1,5 +1,7 @@
 package net.ed;
 
+// Create a Song class having Title and Duration for a song.
+
 public class Song {
 
     private String title;
