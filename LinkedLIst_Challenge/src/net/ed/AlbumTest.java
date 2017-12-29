@@ -16,7 +16,9 @@ public class AlbumTest {
     public void addSong() {
         Album album = new Album("Purple Rain", "Prince and the Revolution");
         boolean addasong = album.addSong("Take Me with U", 3.54);
-        assertFalse(addasong);
+        assertTrue(addasong);
+        boolean addanothersong = album.addSong("Lets Go Crazy", 4.39);
+        assertTrue(addanothersong);
     }
 
 //    @org.junit.After

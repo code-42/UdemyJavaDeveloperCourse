@@ -19,25 +19,23 @@ public class Album {
     }
 
     public boolean addSong(String title, double duration){
-        // findSong() make sure no duplicate songs
+        // Make sure no duplicate songs
         try {
-            if (findSong(title) == null) {
+//            if (findSong(title) == null) {
                 this.songs.add(new Song(title, duration));
                 return true;
-            }
+//            }
         }
         catch (NullPointerException e){
-            System.out.println("Cant add song " + e);
+            System.out.println("31. Cant add " + title + " " + e);
         }
-        System.out.println("32. " + title);
         return false;
     }
 
     private Song findSong(String title){
-        // findSong() make sure no duplicate songs
+        // Make sure no duplicate songs
         for(Song checkedSong: this.songs){
             if(checkedSong.getTitle().equals(title)){
-                System.out.println("40. " + title);
                 return checkedSong;
             }
         }
