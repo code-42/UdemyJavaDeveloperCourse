@@ -25,6 +25,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Album album = new Album("Purple Rain", "Prince and the Revolution");
+
+        album.addSong("Lets Go Crazy", 4.39);
     }
 
 
