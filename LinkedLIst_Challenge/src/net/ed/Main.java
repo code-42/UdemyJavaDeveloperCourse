@@ -29,6 +29,8 @@ public class Main {
 
         album.addSong("Lets Go Crazy", 4.39);
         album.addSong("Take Me with U", 3.54);
+
+        albums.add(album);
     }
 
 

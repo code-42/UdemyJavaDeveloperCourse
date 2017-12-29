@@ -10,24 +10,35 @@ public class Album {
     private String artist;
     private ArrayList<Song> songs;
 
+    // Constructor but not all fields - leave out the songs ArrayList
     public Album(String name, String artist) {
         this.name = name;
         this.artist = artist;
+        // Initialize ArrayList even though its not a parameter to the constructor
         this.songs = new ArrayList<Song>();
     }
 
     public boolean addSong(String title, double duration){
-        if(findSong(title) == null){
-            this.songs.add(new Song(title, duration));
-            return true;
+        // findSong() make sure no duplicate songs
+        try {
+            if (findSong(title) == null) {
+                this.songs.add(new Song(title, duration));
+                return true;
+            }
         }
+        catch (NullPointerException e){
+            System.out.println("Cant add song " + e);
+        }
+        System.out.println("32. " + title);
         return false;
     }
 
     private Song findSong(String title){
-        for(Song checkSong: this.songs){
-            if(checkSong.getTitle().equals(title)){
-                return checkSong;
+        // findSong() make sure no duplicate songs
+        for(Song checkedSong: this.songs){
+            if(checkedSong.getTitle().equals(title)){
+                System.out.println("40. " + title);
+                return checkedSong;
             }
         }
         return null;
