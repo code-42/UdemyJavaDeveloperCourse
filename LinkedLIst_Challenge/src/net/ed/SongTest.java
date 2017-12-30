@@ -1,27 +1,19 @@
 package net.ed;
 
-import org.junit.After;
-import org.junit.Before;
+import static org.junit.Assert.*;
+import java.util.ArrayList;
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class SongTest {
 
-//    @Before
-//    public void setUp() throws Exception {
-//    }
-
-    @Test
+    @org.junit.Test
     public void getTitle() {
-        fail("Test not yet implemented");
+        Song song = new Song("Purple Rain", 8.41);
+        String title = song.getTitle();
+        assertEquals("Purple Rainn", title);
     }
 
-//    @Test
-//    public void toString() {
-//    }
-
-//    @After
-//    public void tearDown() throws Exception {
-//    }
 }

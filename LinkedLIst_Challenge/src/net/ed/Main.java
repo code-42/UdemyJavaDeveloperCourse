@@ -19,6 +19,7 @@ package net.ed;
 
 import java.util.ArrayList;
 
+
 public class Main {
 
     private static ArrayList<Album> albums = new ArrayList<Album>();
@@ -29,12 +30,22 @@ public class Main {
 
         album.addSong("Lets Go Crazy", 4.39);
         album.addSong("Take Me with U", 3.54);
-
-
-
+        album.addSong("The Beautiful Ones", 5.13);
+        album.addSong("Computer Blue", 3.59);
+        album.addSong("Darling Nikki", 4.14);
 
         albums.add(album);
-    }
 
+        album = new Album("Abbey Road", "The Beatles");
+        album.addSong("Mean Mr. Mustard", 1.06);
+        album.addSong("Polyethelene Pam", 1.12);
+        album.addSong("She Came In Through The Bathroom Window", 1.57);
+        album.addSong("Her Majesty", 0.23);
+
+        albums.add(album);
+
+
+
+    }
 
 }

@@ -3,13 +3,12 @@ package net.ed;
 // Create a Song class having Title and Duration for a song.
 
 public class Song {
-
     private String title;
     private double duration;
 
     public Song(String title, double duration) {
-        title = title;
-        duration = duration;
+        this.title = title;
+        this.duration = duration;
     }
 
     public String getTitle() {
@@ -20,4 +19,6 @@ public class Song {
     public String toString() {
         return this.title + ": " + this.duration;
     }
+
 }
+
