@@ -3,6 +3,7 @@ package net.ed;
 // The program will have an Album class containing a list of songs.
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Album {
     private String name;
@@ -33,4 +34,7 @@ public class Album {
     }
 
 
+    public void addToPlayList(String title, LinkedList<Song> playList) {
+        
+    }
 }
