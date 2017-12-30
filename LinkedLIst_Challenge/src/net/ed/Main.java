@@ -48,6 +48,8 @@ public class Main {
         LinkedList<Song> playList = new LinkedList<Song>();
         albums.get(0).addToPlayList("Lets Go Crazy", playList);
 
+        play(playList);
+
     }
 
 }
