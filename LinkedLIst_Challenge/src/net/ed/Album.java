@@ -35,6 +35,6 @@ public class Album {
 
 
     public void addToPlayList(String title, LinkedList<Song> playList) {
-        
+        System.out.println(title + " added to playList");
     }
 }
