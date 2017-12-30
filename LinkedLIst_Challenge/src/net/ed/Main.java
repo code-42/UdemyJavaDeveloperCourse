@@ -18,6 +18,7 @@ package net.ed;
 
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 
 public class Main {
@@ -44,7 +45,8 @@ public class Main {
 
         albums.add(album);
 
-
+        LinkedList<Song> playList = new LinkedList<Song>();
+//        albums.get(0).addToPlayList("You can't do it right", playList);
 
     }
 
