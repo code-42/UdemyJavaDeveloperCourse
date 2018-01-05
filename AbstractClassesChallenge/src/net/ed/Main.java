@@ -59,6 +59,7 @@ public class Main {
 
         String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
 
+        // Make an array of Strings from  stringData
         String[] data = stringData.split(" ");
         for (String s : data) {
             // create new item with value set to the string s

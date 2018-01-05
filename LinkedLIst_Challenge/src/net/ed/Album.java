@@ -34,7 +34,13 @@ public class Album {
     }
 
 
-    public void addToPlayList(String title, LinkedList<Song> playList) {
-        System.out.println(title + " added to playList");
+    public boolean addToPlayList(String title, LinkedList<Song> playList) {
+        Song checkedSong = findSong(title);
+        if(checkedSong != null) {
+            playList.add(checkedSong);
+            return true;
+        }
+        System.out.println("The song " + title + " is not in this album");
+        return false;
     }
 }

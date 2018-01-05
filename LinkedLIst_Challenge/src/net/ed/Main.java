@@ -52,4 +52,8 @@ public class Main {
 
     }
 
+    private static void play(LinkedList<Song> playList) {
+        System.out.println("They're playing our song");
+    }
+
 }

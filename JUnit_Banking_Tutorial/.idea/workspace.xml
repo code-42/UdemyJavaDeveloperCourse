@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d20a027-2e99-4bb0-b1ea-44fc9620fb9b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JUnit_Challenge_1/JUnit_Challenge_10.1_ss.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JUnit_Challenge_1/JUnit_Challenge_10.2_ss.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JUnit_Challenge_1/src/net/ed/UtilitiesTestParameterized.java" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../Classes_Part1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Classes_Part1/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../Classes_Part1/src/com/company/VipCustomer.java" afterPath="$PROJECT_DIR$/../Classes_Part1/src/com/company/VipCustomer.java" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/src/com/udemy/Camaro.java" afterPath="$PROJECT_DIR$/../InheritanceChallenge/src/com/udemy/Camaro.java" />
-      <change beforePath="$PROJECT_DIR$/../JUnitChallenge1/.idea/codeStyles/codeStyleConfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/.idea/codeStyles/codeStyleConfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/JUnit_Challenge1.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/JUnit_Challenge1_ss.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/src/Utilities.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/src/UtilitiesTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../JUnit_Challenge1/src/net/ed/Main.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/jsoup_1_11_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Hotels.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../JUnit_Challenge_1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JUnit_Challenge_1/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../Section9_ListAndArrayList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Section9_ListAndArrayList/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../List_and_ArrayList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../List_and_ArrayList/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Main.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -427,7 +414,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1284" y="55" width="1280" height="745" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
