@@ -14,7 +14,7 @@ public class MyLinkedListTest {
 
     @Test
     public void getRoot() {
-        fail("Test not yet implemented");
+        assertNull(list.getRoot());
     }
 
     @Test

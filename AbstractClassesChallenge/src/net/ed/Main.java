@@ -60,6 +60,8 @@ public class Main {
         // First instantiate a new object of type MyLinkedList
         MyLinkedList list = new MyLinkedList(null);
 
+        list.traverse(list.getRoot());
+
         String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
 
         // Make an array of Strings from  stringData
