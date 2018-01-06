@@ -25,11 +25,13 @@ public class MyLinkedList implements NodeList {
         while (currentItem != null){
             int comparison = (currentItem.compareTo(newItem));
             if(comparison < 0){
-                // newItem is greater, move right if possible
+                // See Video 65 @ 10:55 for explanation of ListIterator.compareTo() method
+                // newItem is greater than currentItem, move right if possible
+                // then compare again
                 if(currentItem.next() != null){
                     currentItem = currentItem.next();
                 } else {
-                    // thiere is no next, so insert at the end of the list
+                    // there is no next, so insert at the end of the list
                     currentItem.setNext(newItem);
                     newItem.setPrevious(currentItem);
                     return true;
@@ -49,7 +51,7 @@ public class MyLinkedList implements NodeList {
                 }
                 return true;
             } else {
-                // equal
+                // equal, do not add
                 System.out.println(newItem.getValue() + " is already present, so not added.");
                 return false;
             }
@@ -63,7 +65,7 @@ public class MyLinkedList implements NodeList {
     }
 
     /**
-     * Traverse() for actually going through the list
+     * traverse() for actually going through the list
      * starting at the root and print out the value of each item
      * @param root
      */

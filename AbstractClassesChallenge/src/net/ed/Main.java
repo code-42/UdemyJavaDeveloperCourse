@@ -57,12 +57,16 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // First instantiate a new object of type MyLinkedList
+        MyLinkedList list = new MyLinkedList(null);
+
         String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
 
         // Make an array of Strings from  stringData
         String[] data = stringData.split(" ");
         for (String s : data) {
             // create new item with value set to the string s
+            list.addItem(new Node(s));
         }
     }
 }

@@ -6,6 +6,12 @@ import static org.junit.Assert.*;
 
 public class MyLinkedListTest {
 
+
+    // First instantiate a new object of type MyLinkedList
+    MyLinkedList list = new MyLinkedList(null);
+
+    String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
+
     @Test
     public void getRoot() {
         fail("Test not yet implemented");
@@ -13,7 +19,12 @@ public class MyLinkedListTest {
 
     @Test
     public void addItem() {
-        fail("Test not yet implemented");
+        // Make an array of Strings from  stringData
+        list.addItem(new Node("Me"));
+        System.out.println(list.getRoot().getValue());
+        String expected = list.getRoot().getValue().toString();
+        String actual = list.getRoot().getValue().toString();
+        assertEquals(expected, actual);
     }
 
     @Test
