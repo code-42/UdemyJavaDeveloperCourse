@@ -45,6 +45,25 @@ public class MyLinkedListTest {
 
     @Test
     public void traverse() {
-        fail("Test not yet implemented");
+        list.traverse(list.getRoot());
+
+        // First add an item, then remove it
+        list.addItem(new Node("Me2"));
+        System.out.println(list.getRoot().getValue());
+        boolean expected = list.removeItem(new Node("Me2"));
+        list.traverse(list.getRoot());
+        System.out.println(expected);
+
+        // add an item, then remove it again for test
+        list.addItem(new Node("MeTest"));
+        System.out.println(list.getRoot().getValue());
+        boolean actual = list.removeItem(new Node("MeTest"));
+        list.addItem(new Node("Me3"));
+        list.addItem(new Node("Me4"));
+        list.traverse(list.getRoot());
+        System.out.println(actual);
+        assertEquals(expected, actual);
+
+
     }
 }
