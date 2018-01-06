@@ -28,7 +28,8 @@ public abstract class ListItem {
     }
 
     /**
-     * Abstract methods
+     * Abstract methods build structures that make the node's
+     * next() and previous() methods point to eachother
      * Retruns the next ListItem
      * Saves the next ListItem
      * Retruns the previous ListItem
