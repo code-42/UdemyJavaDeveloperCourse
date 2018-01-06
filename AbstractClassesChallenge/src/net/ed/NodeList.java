@@ -12,7 +12,7 @@ public interface NodeList {
     /**
      * Root (or head in BST) gets the actual ListItem itself
      * Any data structure we create must have a starting node
-     * Travers() for actually going through the list
+     * Traverse() for actually going through the list
      * starting at the root and print out the value of each item
      * @return
      */
