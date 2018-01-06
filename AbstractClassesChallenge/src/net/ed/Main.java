@@ -70,6 +70,13 @@ public class Main {
             // create new item with value set to the string s
             list.addItem(new Node(s));
         }
+
+        list.traverse(list.getRoot());
+        list.removeItem(new Node("Darwin"));
+        list.traverse(list.getRoot());
+        list.addItem(new Node("Warwick"));
+        list.traverse(list.getRoot());
+
     }
 }
 

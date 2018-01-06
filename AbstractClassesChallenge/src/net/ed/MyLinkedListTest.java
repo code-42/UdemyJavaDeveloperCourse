@@ -29,7 +29,18 @@ public class MyLinkedListTest {
 
     @Test
     public void removeItem() {
-        fail("Test not yet implemented");
+        // First add an item, then remove it
+        list.addItem(new Node("Me2"));
+        System.out.println(list.getRoot().getValue());
+        boolean expected = list.removeItem(new Node("M2"));
+        System.out.println(expected);
+
+        // add an item, then remove it again for test
+        list.addItem(new Node("MeTest"));
+        System.out.println(list.getRoot().getValue());
+        boolean actual = list.removeItem(new Node("MeTest"));
+        System.out.println(actual);
+        assertEquals(expected, actual);
     }
 
     @Test
