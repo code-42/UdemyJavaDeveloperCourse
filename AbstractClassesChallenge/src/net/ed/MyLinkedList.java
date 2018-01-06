@@ -45,6 +45,7 @@ public class MyLinkedList implements NodeList {
 
     @Override
     public void traverse(ListItem root) {
+        //
 
     }
 }
