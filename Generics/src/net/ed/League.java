@@ -2,9 +2,10 @@ package net.ed;
 
 import java.util.ArrayList;
 
-public class League {
+public class League<T extends Team> {
 
     private String name;
+    private ArrayList<T> league = new ArrayList<>();
 
     public League(String name) {
         this.name = name;
@@ -14,14 +15,14 @@ public class League {
         return name;
     }
 
-    ArrayList<League> leagues = new ArrayList<League>();
 
-    public boolean addTeam(Team team){
-        if(leagues.contains(team)){
+
+    public boolean addTeam(T team){
+        if(league.contains(team)){
             System.out.println(team.getName() + " is already in the League");
             return false;
         } else {
-            leagues.add(team);
+            league.add(team);
             System.out.println(team.getName() + " added to League");
             return true;
         }
