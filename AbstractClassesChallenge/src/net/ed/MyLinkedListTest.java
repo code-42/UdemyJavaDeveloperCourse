@@ -63,7 +63,5 @@ public class MyLinkedListTest {
         list.traverse(list.getRoot());
         System.out.println(actual);
         assertEquals(expected, actual);
-
-
     }
 }
