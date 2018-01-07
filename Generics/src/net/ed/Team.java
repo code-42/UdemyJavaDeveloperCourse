@@ -17,6 +17,17 @@ public class Team<T extends Player> implements Comparable<Team<T>> {
         return name;
     }
 
+    public boolean addPlayer(T player){
+        if(members.contains(player)){
+            System.out.println(player.getName() + " is already on this team");
+            return false;
+        } else {
+            members.add(player);
+            System.out.println(player.getName() + " added to team " + this.name);
+            return true;
+        }
+    }
+
     /**
      * Compares this object with the specified object for order.  Returns a
      * negative integer, zero, or a positive integer as this object is less

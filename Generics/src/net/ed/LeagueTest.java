@@ -11,6 +11,10 @@ public class LeagueTest {
 
     @org.junit.Test
     public void addTeam() {
-        fail("test not implemented yet");
+        boolean teamAdded;
+        League<Team<FootballPlayer>> footballLeague = new League<>("NFL");
+        Team<FootballPlayer> patriots = new Team<>("Patriots");
+        teamAdded = footballLeague.addTeam(patriots);
+        assert(teamAdded);
     }
 }
