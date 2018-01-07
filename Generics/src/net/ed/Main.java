@@ -6,13 +6,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ArrayList<Integer> items = new ArrayList<>();
-        items.add(1);
-//        items.add("me");
+        League bigLeague = new League("BigLeague");
 
-        for (int i = 0; i < items.size(); i++) {
-            System.out.println(items.get(i));
-        }
+        Team devTeam = new Team("Devs");
+        devTeam.addTeam(devTeam);
+
+        System.out.println(devTeam.numTeams());
+
+        System.out.println(bigLeague.getName());
 
     }
 }
