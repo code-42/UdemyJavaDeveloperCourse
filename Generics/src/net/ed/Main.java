@@ -6,14 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        League bigLeague = new League("BigLeague");
+        League<Team<FootballPlayer>> footballLeague = new League<>("NFL");
 
-        Team devTeam = new Team("Devs");
-        devTeam.addTeam(devTeam);
-
-        System.out.println(devTeam.numTeams());
-
-        System.out.println(bigLeague.getName());
+        Team<FootballPlayer> patriots = new Team<>("Patriots");
 
     }
 }
