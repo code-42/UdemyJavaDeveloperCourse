@@ -6,17 +6,21 @@ import static org.junit.Assert.*;
 
 public class LeagueTest {
 
+    League<Team<FootballPlayer>> footballLeague = new League<>("NFL");
+    Team<FootballPlayer> team = new Team<>("Patriots");
+
     @org.junit.Test
     public void getName() {
-        fail("test not implemented yet");
+        String expected = "NFL";
+        String actual = footballLeague.getName();
+        System.out.println("footballLeague.getName() == " + actual);
+        assertEquals(expected, actual);
     }
 
     @org.junit.Test
     public void addTeam() {
         boolean teamAdded;
-        League<Team<FootballPlayer>> footballLeague = new League<>("NFL");
-        Team<FootballPlayer> patriots = new Team<>("Patriots");
-        teamAdded = footballLeague.addTeam(patriots);
+        teamAdded = footballLeague.addTeam(team);
         assert(teamAdded);
     }
 

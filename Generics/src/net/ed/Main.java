@@ -26,9 +26,5 @@ public class Main {
 
         patriots.addPlayer(new FootballPlayer("Gronk"));
 
-
-
-
-
     }
 }
