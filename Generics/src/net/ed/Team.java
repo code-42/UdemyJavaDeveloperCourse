@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class Team<T extends Player> implements Comparable<Team<T>> {
 
     private String name;
+    int won = 0;
+    int tied = 0;
 
     private ArrayList<T> members = new ArrayList<>();
 
@@ -27,6 +29,8 @@ public class Team<T extends Player> implements Comparable<Team<T>> {
             return true;
         }
     }
+
+
 
     /**
      * Compares this object with the specified object for order.  Returns a
@@ -69,5 +73,9 @@ public class Team<T extends Player> implements Comparable<Team<T>> {
     @Override
     public int compareTo(Team<T> o) {
         return 0;
+    }
+
+    public int ranking() {
+        return (won * 2) + tied;
     }
 }
