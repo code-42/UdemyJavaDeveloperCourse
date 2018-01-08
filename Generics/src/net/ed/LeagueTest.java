@@ -1,5 +1,7 @@
 package net.ed;
 
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class LeagueTest {
@@ -17,4 +19,5 @@ public class LeagueTest {
         teamAdded = footballLeague.addTeam(patriots);
         assert(teamAdded);
     }
+
 }
